@@ -1,6 +1,6 @@
 import { createServer } from "node:http";
 
-const VERSION = "2";
+const VERSION = "3";
 const PORT = parseInt(process.env.PORT || "3000", 10);
 
 createServer((req, res) => {
